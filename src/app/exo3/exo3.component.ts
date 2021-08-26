@@ -12,4 +12,14 @@ export class Exo3Component implements OnInit {
   ngOnInit(): void {
   }
 
+
+  inputValue!: string;
+  mavar !: string;
+  btn1click(){
+    this.mavar="sidy barry btn1";
+  }
+
+  btn2click(){
+    this.mavar="btn2 ";
+  }
 }

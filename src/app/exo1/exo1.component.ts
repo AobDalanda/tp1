@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Exo1Component implements OnInit {
 
-  constructor() { }
+
+
+  compter : number=0;
+  compteur(){
+    this.compter++;
+  }
 
   ngOnInit(): void {
   }
